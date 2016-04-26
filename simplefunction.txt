@@ -1,0 +1,15 @@
+int adder(int p,int q){
+	int z;
+	z=p+q;
+	return z;
+}
+
+void main(){
+		int b;
+		int x;
+		int z;
+		x=4;
+		b=60;
+		z=adder(x,b);
+		print(int,z);		
+}

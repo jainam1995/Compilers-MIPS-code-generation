@@ -1,0 +1,19 @@
+int fun(int x){
+	if(x==0){
+		return 1;	
+	}
+	int z;
+	int q;
+	q = fun(x-1);
+	z =x*q;
+	return z;
+}
+
+void main(){
+		int b;
+		int x;
+		int z;
+		x=4;
+		z=fun(x);
+		print(int,z);		
+}
